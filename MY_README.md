@@ -9,6 +9,22 @@
 
 ## Exchange images
 
+1. Exchanged an image on line 22 and added a new image on line 23 of the sample index.html
+2. Did you need to restart the server to do that? Why or why not?
+    - No, due to the change being a static image replacement, no server restart was necessary, only browser refresh was necesary to perform
+
 ## Process Id of running server
 
-## Write shell script to create new index.html which includes all images using HERE-docs where applicable
+- **ps** command will output the current running processes and their corresponding ids
+
+```shell
+~ ps
+  PID TTY           TIME CMD
+ 7023 ttys000    0:00.88 -zsh
+10369 ttys000    0:00.01 darkhttpd ./ --port 12345
+```
+
+## Shell script
+
+1. 
+
