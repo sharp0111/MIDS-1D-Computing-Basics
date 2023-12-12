@@ -26,5 +26,7 @@
 
 ## Shell script
 
-1. 
+1. Create a new folder **new_website**
+2. Run the bash script which will copy the contents from original ./website/index.html into ./new_website/index.html
 
+- $ **bash bash_script.sh**
