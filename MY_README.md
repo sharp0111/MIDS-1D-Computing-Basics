@@ -26,7 +26,7 @@
 
 ## Shell script
 
-1. Create a new folder **new_website**
-2. Run the bash script which will copy the contents from original ./website/index.html into ./new_website/index.html
+1. Run the bash script **./bash_script.sh** which will create a new index.html file
+2. Run the server **darkhttpd ./ --port 12345**
+3. Open <http://0.0.0.0:12345/> in a browser of your choice
 
-- $ **bash bash_script.sh**
